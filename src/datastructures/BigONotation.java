@@ -32,7 +32,36 @@ public class BigONotation {
 
 
 
-//O(i)
+//O(1)= constant  time
+    //*random access of elements of array
+    // inserting at beginning of linked list
+
+
+    //o(log n)=logarithmic time
+    //binary search
+
+
+    //O(n)= linear time
+    //looping through elements in an array
+    //searching through linked list
+
+
+    //O(n log n)= quasilinear time
+    //quicksort
+    //mergesort
+    //heapsort
+
+
+    //O(n^2)=quadratic time
+    //insertion sort
+    //selection sort
+    //bubble-sort
+
+//    O(n!)= factorial time
+    //traveling salesman problem
+
+
+
 
 
 
