@@ -17,7 +17,7 @@ public class LinkedListVsArrays {
             arrayList.add(i);
         }
 
-///                 Linkedlist
+//////////////////////                 Linkedlist  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         startTime = System.nanoTime();
 //linkedList.get(0);
 //linkedList.get(50000);
@@ -32,7 +32,7 @@ public class LinkedListVsArrays {
         System.out.println("Linkedlist:\t" + elapseTime + " ns");
 
         //do Something
-///                 ArrayList
+//////////////////////                 Arraylist  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
         startTime = System.nanoTime();
 //        arrayList.get(0);
 //        arrayList.get(50000);
