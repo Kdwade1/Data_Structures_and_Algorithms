@@ -10,8 +10,8 @@ public class BinarySearch {
 
 
     public static void main(String[] args) {
-        int[] array = new int[1000000];
-        int target= 600;
+        int[] array = new int[100];
+        int target= 45;
 
         for (int i = 0; i < array.length; i++) {
             array[i]= i;
@@ -33,6 +33,7 @@ public class BinarySearch {
 
         while(low <= high){
             int middle= low+ (high -low)/2;
+
             int value= array[middle];
             int lValue=array[low];
             int hValue=array[high];
