@@ -18,14 +18,36 @@ public class Recursion {
     //sometimes slower
     //uses more memory
 
+
+    //Call stack- in computer science,a call stack is a stack data structure stores data about the active
+    //subroutines of a computer program. This kind of stack is also known as a execution stack,program stack,control stack
+    //run-time-stack,machine stack and is shorten to the stack,
+
     public static void main(String[] args) {
-        walk(5);
+//        walk(5);
+        factorial(7);
+        System.out.println(factorial(7));
+        System.out.println(power(4,8));
+
+    }
+
+    private static int power(int i,int j) {
+        if(j<1)return 1;
+        return i *power(i,j-1);
+    }
+
+    private static int factorial(int x) {
+        if(x<1)return 1;
+        return x*factorial(x-1);
 
     }
 
     private static void walk(int steps) {
-        for(int i=0; i<steps;i++){
-            System.out.println("you take a step");
-        }
+       if(steps<1)
+           return;
+       System.out.println("you take a step");
+            walk(steps-1);
+
     }
+
 }
