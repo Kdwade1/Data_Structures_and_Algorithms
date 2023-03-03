@@ -4,7 +4,26 @@ import java.util.Hashtable;
 
 public class HashTable {
 
-    //
+    //Hashtable= A datastructure that stores unique keys to values ex <Integer,String>
+    //Each Key/Value pair is known as an Entry
+    //Fast insertion,look up,deletion of key/value pairs
+    //Not ideal for small datasets, great for large datasets
+
+
+    ///hashing=takes a key and computes an integer(formula will vary based on key&data type)
+    //In a hashTable we use the hash %capacity to calculate index number
+    //key.hashcode()%capcity=index
+
+
+    //bucket=an indexed storage location for one or more Entries
+    //can store multiple Entries in case of collision (linked similarly a Linkedlist)
+
+
+    //collision= hash function generates the same indexes for more than one key
+    //less collision= more efficiency
+
+    //runtime complexity: Best Case O(1)
+    //worse case O(n)
 
     public static void main(String[] args) {
 //        Hashtable<Integer,String> table=new Hashtable<>(10);
