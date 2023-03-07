@@ -16,6 +16,9 @@ graph.addNode(new Nodes('B'));
 graph.addNode(new Nodes('C'));
 graph.addNode(new Nodes('D'));
 graph.addNode(new Nodes('E'));
+graph.addNode(new Nodes('F'));
+graph.addNode(new Nodes('G'));
+graph.addNode(new Nodes('H'));
 
 
 graph.addEdge(0,1);
@@ -25,6 +28,11 @@ graph.addEdge(2,3);
 graph.addEdge(2,4);
 graph.addEdge(4,0);
 graph.addEdge(4,2);
+graph.addEdge(5,0);
+graph.addEdge(5,6);
+graph.addEdge(6,2);
+graph.addEdge(6,7);
+graph.addEdge(7,3);
 
 graph.print();
 
